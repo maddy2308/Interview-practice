@@ -40,7 +40,7 @@ public class NQueenProblem {
     }
 
     public boolean setNQueens(int queens) {
-        boolean flag = true;
+        boolean flag;
         if (queens == chess[0].length) {
             return true;
         } else {

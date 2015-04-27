@@ -24,6 +24,7 @@ public class BinaryTree {
 
         rNode1 = new TreeNode(root, leaf2, null, 6);
         rNode2 = new TreeNode(rNode1, leaf3, leaf4, 9);
+        leaf2.setParent(rNode1);
         leaf3.setParent(rNode2);
         leaf4.setParent(rNode2);
         rNode1.setRightChildNode(rNode2);
