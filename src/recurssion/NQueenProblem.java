@@ -4,6 +4,15 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+The following algorithm follows a backtracking approach to place N queens in a chessboard of N*N size such that no queen
+is attacking another Queen. The valid moves for the queen are move any number of square in horizontal, vertical or
+diagonal direction. It is one of the classical problems of recursion. It uses the technique of trying to place a queen
+in each column. If the program is successful in doing that then it returns the changed array, by placing queen numbered
+from "0 to N" and all other cells marked as "-1" representing empty cell. If the program is unsuccessful then it prints
+out "Not possible to place the N-Queens".
+*/
+
 public class NQueenProblem {
 
     private Set<String> queenAdded = new HashSet<String>();
@@ -19,10 +28,14 @@ public class NQueenProblem {
     }
 
     public static void main(String[] args){
-        NQueenProblem obj = new NQueenProblem(3);
-        obj.setNQueens(0);
-        for (int i = 0; i < obj.chess[0].length; i++){
-            System.out.println(Arrays.toString(obj.chess[i]));
+        int n = 8;
+        NQueenProblem obj = new NQueenProblem(n);
+        if (obj.setNQueens(0)){
+            for (int i = 0; i < obj.chess[0].length; i++){
+                System.out.println(Arrays.toString(obj.chess[i]));
+            }
+        } else {
+            System.out.println("Not possible to place the " + n + "-Queens");
         }
     }
 

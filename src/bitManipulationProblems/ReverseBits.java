@@ -1,4 +1,4 @@
-package practiceProblems;
+package bitManipulationProblems;
 
 public class ReverseBits {
 

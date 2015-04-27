@@ -1,4 +1,4 @@
-package practiceProblems;
+package LinkedLists;
 
 import linkedListImplementation_Better.SLinkedList;
 import linkedListImplementation_Better.SListNode;
