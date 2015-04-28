@@ -1,4 +1,4 @@
-package practiceProblems;
+package trees_graphs;
 
 import Utility.TreeNode;
 
@@ -22,7 +22,7 @@ public class BinaryTreeMaxPathSum {
         int left = findMax(node.getLeftChildNode());
         int right = findMax(node.getRightChildNode());
 
-        int current = Math.max((Integer)node.getData(), Math.max((Integer)node.getData() + left, (Integer)node.getData() + right));
+        int current = Math.max((Integer) node.getData(), Math.max((Integer) node.getData() + left, (Integer) node.getData() + right));
         max = Math.max(max, Math.max(current, left + (Integer)node.getData() + right));
         return current;
     }

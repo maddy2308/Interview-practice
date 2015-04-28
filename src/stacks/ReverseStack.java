@@ -1,4 +1,4 @@
-package practiceProblems;
+package stacks;
 
 import java.util.Stack;
 

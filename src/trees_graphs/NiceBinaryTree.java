@@ -1,4 +1,4 @@
-package practiceProblems;
+package trees_graphs;
 
 public class NiceBinaryTree {
 

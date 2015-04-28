@@ -1,4 +1,4 @@
-package sortingAndArrays;
+package arrays;
 
 
 public class SortedRotatedArray {

@@ -1,4 +1,4 @@
-package practiceProblems;
+package strings;
 
 public class IntStringConversion {
 
