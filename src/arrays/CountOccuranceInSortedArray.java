@@ -27,19 +27,6 @@ public class CountOccuranceInSortedArray {
         }
     }
 
-    int first(int low, int high, int x) {
-        if (high >= low) {
-            int mid = (low + high) / 2;  /*low + (high - low)/2;*/
-            if ((mid == 0 || x > array[mid - 1]) && array[mid] == x)
-                return mid;
-            else if (x > array[mid])
-                return first((mid + 1), high, x);
-            else
-                return first(low, (mid - 1), x);
-        }
-        return -1;
-    }
-
     public int binarySearchForLastOccurrence(int low, int high, int number) {
         int mid = 0;
         // loop till the condition is true
