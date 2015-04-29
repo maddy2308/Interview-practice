@@ -9,6 +9,7 @@ public class Heap<T> {
     private int lastElementIndex = 0;
     private List<Node> heap;
     private Comparator<T> comparator;
+    private boolean isMaxHeap;
 
     private class Node {
         public T element;
@@ -18,9 +19,10 @@ public class Heap<T> {
         }
     }
 
-    public Heap(int size, Comparator<T> comparator) {
+    public Heap(int size, Comparator<T> comparator, boolean isMaxHeap) {
         this.comparator = comparator;
         heap = new ArrayList<Node>(size);
+        this.isMaxHeap = isMaxHeap;
     }
 
     public void insertElement(T element) {
@@ -50,12 +52,24 @@ public class Heap<T> {
             int parentIndex = (index - 1) / 2;
             Node child = heap.get(index);
             Node parent = heap.get(parentIndex);
-            if (comparator.compare(child.element, parent.element) < 0) {
-                swap(index, child, parentIndex, parent);
-                index = parentIndex;
+            // strategy Design pattern to be used here
+            // {
+            if (isMaxHeap){
+                if (comparator.compare(child.element, parent.element) > 0) {
+                    swap(index, child, parentIndex, parent);
+                    index = parentIndex;
+                } else {
+                    break;
+                }
             } else {
-                break;
+                if (comparator.compare(child.element, parent.element) < 0) {
+                    swap(parentIndex, parent, index, child);
+                    index = parentIndex;
+                } else {
+                    break;
+                }
             }
+            // }
         }
     }
 
@@ -65,15 +79,28 @@ public class Heap<T> {
             Node parent = heap.get(index);
             Node c1 = (heap.size() <= (2 * index + 1)) ? null : heap.get(2 * index + 1);
             Node c2 = (heap.size() <= (2 * index + 2)) ? null : heap.get(2 * index + 2);
-            Node toCompareWith;
-            int compareIndex;
+            Node toCompareWith = null;
+            int compareIndex = 0;
+            // startegy Design pattern is to be used here
+            // {
+
             if (c1 != null && c2 != null) {
-                if (comparator.compare(c1.element, c2.element) > 0) {
-                    toCompareWith = c2;
-                    compareIndex = 2 * index + 2;
+                if (!isMaxHeap) {
+                    if (comparator.compare(c1.element, c2.element) > 0) {
+                        toCompareWith = c2;
+                        compareIndex = 2 * index + 2;
+                    } else {
+                        toCompareWith = c1;
+                        compareIndex = 2 * index + 1;
+                    }
                 } else {
-                    toCompareWith = c1;
-                    compareIndex = 2 * index + 1;
+                    if (comparator.compare(c1.element, c2.element) > 0) {
+                        toCompareWith = c1;
+                        compareIndex = 2 * index + 1;
+                    } else {
+                        toCompareWith = c2;
+                        compareIndex = 2 * index + 2;
+                    }
                 }
             } else {
                 if (c1 == null) {
@@ -85,12 +112,22 @@ public class Heap<T> {
                 }
             }
 
-            if (toCompareWith != null && comparator.compare(parent.element, toCompareWith.element) > 0) {
-                swap(compareIndex, toCompareWith, index, parent);
-                index = compareIndex;
+            if (!isMaxHeap){
+                if (toCompareWith != null && comparator.compare(parent.element, toCompareWith.element) > 0) {
+                    swap(compareIndex, toCompareWith, index, parent);
+                    index = compareIndex;
+                } else {
+                    break;
+                }
             } else {
-                break;
+                if (toCompareWith != null && comparator.compare(parent.element, toCompareWith.element) < 0) {
+                    swap(index, parent, compareIndex, toCompareWith);
+                    index = compareIndex;
+                } else {
+                    break;
+                }
             }
+            // }
         }
     }
 

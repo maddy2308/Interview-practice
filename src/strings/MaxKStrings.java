@@ -11,8 +11,9 @@ public class MaxKStrings {
     private HeapComparator comparator = new HeapComparator();
 
     public static void main(String[] args) {
+        boolean isMaxHeap = true;
         MaxKStrings obj = new MaxKStrings();
-        Heap<Map.Entry<String, Integer>> minHeap = new Heap<Map.Entry<String, Integer>>(6, obj.comparator);
+        Heap<Map.Entry<String, Integer>> minHeap = new Heap<Map.Entry<String, Integer>>(6, obj.comparator, isMaxHeap);
         Map<String, Integer> map = new HashMap<String, Integer>();
         map.put("test", 3);
         map.put("hello", 4);
@@ -23,7 +24,7 @@ public class MaxKStrings {
         for (Map.Entry each : map.entrySet()) {
             minHeap.insertElement(each);
         }
-        Map.Entry topEntry = null;
+        Map.Entry topEntry;
         do {
             topEntry = minHeap.topElement();
             if (topEntry != null) {
