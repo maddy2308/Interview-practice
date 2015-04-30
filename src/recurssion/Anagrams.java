@@ -9,7 +9,7 @@ public class Anagrams {
 
     public static void main(String[] args) {
         Anagrams obj = new Anagrams();
-        List<Character> list = new LinkedList<Character>(Arrays.asList('a', 'b', 'c'));
+        List<Character> list = new LinkedList<Character>(Arrays.asList('h', 'a', 't'));
         obj.getAllPermutations(new StringBuilder(""), list);
     }
 
@@ -26,7 +26,7 @@ public class Anagrams {
             getAllPermutations(sb, getNewList(index, charLeft));
 
             // print all possible combinations including repetition of characters
-            getAllPermutations(sb, charLeft);
+            //getAllPermutations(sb, charLeft);
         }
     }
 
