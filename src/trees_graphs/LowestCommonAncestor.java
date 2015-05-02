@@ -7,6 +7,9 @@ public class LowestCommonAncestor {
 
     private TreeNode root = BinaryTree.getBinarySearchTree();
 
+    private boolean n1Found = false;
+    private boolean n2Found = false;
+
     public static void main(String[] args) {
         LowestCommonAncestor obj = new LowestCommonAncestor();
 
@@ -18,7 +21,7 @@ public class LowestCommonAncestor {
         // find lowest common ancestor in Binary Tree
         obj.root = BinaryTree.getBinaryTree();
         ancestor = obj.findLowestCommonAncestorInBT(obj.root, 1, 12);
-        if (ancestor == null) System.out.println("No such children");
+        if ((ancestor == null) || !(obj.n1Found && obj.n2Found)) System.out.println("No such children");
         else System.out.println(ancestor.getData());
     }
 
@@ -38,7 +41,12 @@ public class LowestCommonAncestor {
 
     public TreeNode findLowestCommonAncestorInBT(TreeNode node, int n1, int n2){
         if (node == null) return null;
-        if ((Integer) node.getData() == n1 || (Integer) node.getData() == n2){
+        if ((Integer) node.getData() == n1) {
+            n1Found = true;
+            return node;
+        }
+        if ((Integer) node.getData() == n2){
+            n2Found = true;
             return node;
         }
         TreeNode leftLCA = findLowestCommonAncestorInBT(node.getLeftChildNode(), n1, n2);

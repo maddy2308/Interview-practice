@@ -1,4 +1,4 @@
-package arrays;
+package strings;
 
 public class LongestIncreasingPalindrome {
     static int longestStart = 0;
