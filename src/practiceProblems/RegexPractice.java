@@ -3,7 +3,8 @@ package practiceProblems;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegexPractice {
+public class
+        RegexPractice {
 
     private static String address = "41-3 Otis Street, Somerville, MA-02145, " +
             "4348516455" +

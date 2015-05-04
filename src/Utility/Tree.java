@@ -2,6 +2,8 @@ package Utility;
 
 import trees_graphs.Problem3_createBST_minimalHeight;
 
+import java.util.Stack;
+
 public class Tree {
     private static TreeNode root;
 
@@ -164,6 +166,47 @@ public class Tree {
         } else {
             return findNodeHelper(root.getRightChildNode(), data);
         }
+    }
+
+    public static void displayTree(TreeNode root) {
+        Stack<TreeNode> globalStack = new Stack<TreeNode>();
+        globalStack.push(root);
+        int nBlanks = 32;
+        boolean isRowEmpty = false;
+        System.out.println(
+                "......................................................");
+        while (!isRowEmpty) {
+            Stack<TreeNode> localStack = new Stack<TreeNode>();
+            isRowEmpty = true;
+
+            for (int j = 0; j < nBlanks; j++)
+                System.out.print(' ');
+
+            while (!globalStack.isEmpty()) {
+                TreeNode temp = globalStack.pop();
+                if (temp != null) {
+                    System.out.print(temp.getData());
+                    localStack.push(temp.getLeftChildNode());
+                    localStack.push(temp.getRightChildNode());
+
+                    if (temp.getLeftChildNode() != null ||
+                            temp.getRightChildNode() != null)
+                        isRowEmpty = false;
+                } else {
+                    System.out.print("--");
+                    localStack.push(null);
+                    localStack.push(null);
+                }
+                for (int j = 0; j < nBlanks * 2 - 2; j++)
+                    System.out.print(' ');
+            }  // end while globalStack not empty
+            System.out.println();
+            nBlanks /= 2;
+            while (!localStack.isEmpty())
+                globalStack.push(localStack.pop());
+        }  // end while isRowEmpty is false
+        System.out.println(
+                "......................................................");
     }
 
 }
