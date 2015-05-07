@@ -5,7 +5,7 @@ public class LongestIncreasingPalindrome {
     static int longestEnd = 0;
 
     public static void main(String[] args) {
-        System.out.println(LongestIncreasingPalindrome.lip("76812345654321982"));
+        System.out.println(LongestIncreasingPalindrome.lip("123443"));
     }
 
     private static String lip(String input){

@@ -7,12 +7,18 @@ public class StringProblems {
 
     public static void main(String[] args) {
         StringProblems sp = new StringProblems();
-        sp.convertToInteger("23.45");
-        System.out.println(sp.generateLowestNumber("121198", 4));
-        System.out.println(sp.solve("( + + 7 ( * 8 12 ) ( * * 2 ( + 9 4 ) 7 )"));
-        System.out.println(sp.findLongestUniqueSubstring("123145"));
-        sp.replaceAllWildCharacters("0?1?", 0);
-        System.out.println(sp.list);
+        //sp.convertToInteger("23.45");
+        //System.out.println(sp.generateLowestNumber("121198", 4));
+        //System.out.println(sp.solve("( + + 7 ( * 8 12 ) ( * * 2 ( + 9 4 ) 7 )"));
+        //System.out.println(sp.findLongestUniqueSubstring("123145"));
+        //sp.replaceAllWildCharacters("0?1?", 0);
+        //System.out.println(sp.list);
+        //System.out.println(sp.compressStringDriver(70));
+        //sp.reverseWords("hello madhur  t");
+        //sp.stringTokenizer("thi is a test case is for testing", ' ');
+        //sp.firstNonRepeatingCharacter("sdfsdfsdjfhisjfdhjkdf");
+        //sp.firstNonRepeatingCharacterMethod2("sdfsdfsdjfhisjfdhjkdf");
+        // System.out.println(sp.toUpper("thisIsTes sttt"));
     }
 
     private void convertToInteger(String str) {
@@ -179,5 +185,111 @@ public class StringProblems {
                 }
             }
         }
+    }
+
+    private String compressStringDriver(int n) {
+        String initStr = "1";
+        for (int i = 1; i < n; i++) {
+            initStr = compressString(initStr + "");
+        }
+        return initStr;
+    }
+
+    private String compressString(String cs) {
+        StringBuilder sb = new StringBuilder();
+        char[] array = cs.toCharArray();
+        char c = array[0];
+        int count = 1;
+        for (int i = 1; i < array.length; i++) {
+            if (c == array[i]) {
+                count = count + 1;
+            } else {
+                sb.append(count).append(c);
+                count = 1;
+                c = array[i];
+            }
+        }
+        return sb.append(count).append(c).toString();
+    }
+
+    private boolean isPalindromeForAlphaCharacters(String str) {
+        return true;
+    }
+
+    private void reverseWords(String sentence) {
+        StringBuilder sb = new StringBuilder(sentence);
+        sb.reverse();
+        String[] arrayOfWords = sb.toString().split(" ");
+        int index = 0;
+        for (String word : arrayOfWords) {
+            arrayOfWords[index] = new StringBuilder(word).reverse().toString();
+            index++;
+        }
+        for (String word : arrayOfWords) {
+            System.out.print(word + " ");
+        }
+    }
+
+    private String[] stringTokenizer(String sentence, char token) {
+        List<String> list = new ArrayList<String>();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < sentence.length(); i++) {
+            if (sentence.charAt(i) == token) {
+                list.add(sb.toString());
+                sb = new StringBuilder();
+            } else {
+                sb.append(sentence.charAt(i));
+            }
+        }
+        for (String word : list) {
+            System.out.println(word);
+        }
+        return Arrays.copyOf(list.toArray(), list.size(), String[].class);
+    }
+
+    private void firstNonRepeatingCharacter(String str) {
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        char[] array = str.toCharArray();
+        for (Character ch : array) {
+            if (map.containsKey(ch)) {
+                //int frequency = map.get(ch);
+                map.put(ch, map.get(ch) + 1);
+            } else {
+                map.put(ch, 1);
+            }
+        }
+        for (Character ch : array) {
+            if (map.get(ch) == 1) {
+                System.out.println(ch);
+                break;
+            }
+        }
+    }
+
+    private void firstNonRepeatingCharacterMethod2(String str) {
+        int[] charFrequency = new int[26];
+        char[] array = str.toLowerCase().toCharArray();
+        for (char ch : array) {
+            charFrequency[ch - 'a']++;
+        }
+        for (char ch : array) {
+            if (charFrequency[ch - 'a'] == 1) {
+                System.out.println(ch);
+                break;
+            }
+        }
+    }
+
+    private String toUpper(String str) {
+        char[] arr = str.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        int diff = 'a' - 'A';
+        for (char ch : arr) {
+            if (ch >= 'a') {
+                ch = (char) (ch - diff);
+            }
+            sb.append(ch);
+        }
+        return sb.toString();
     }
 }
