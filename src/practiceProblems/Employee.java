@@ -1,30 +1,27 @@
 package practiceProblems;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Employee {
-    protected long   employeeId;
-    protected String firstName;
-    protected String lastName;
 
-    public Employee(long employeeId, String firstName, String lastName) {
-        this.employeeId = employeeId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+    public void main(String[] args) {
+        System.out.println(-13 % 64);
 
-    /*@Override
-    public boolean equals(Object o){
-        if(o == null)                return false;
-        if(!(o instanceof Employee)) return false;
+        List<String> list = new ArrayList<String>();
+        list.add("123");
+        list.add("234");
+        list.add("345");
+        list.add("456");
 
-        Employee other = (Employee) o;
-        return this.employeeId == other.employeeId;
-    }*/
+        int i = 0;
+        for (String str : list) {
+            list.set(i, str + " " + i++);
+        }
 
-    public static void main(String[] args) {
-        Employee emp1 = new Employee(123, "John", "Dowe");
-        Employee emp2 = new Employee(123, "John", "Baker");
-        System.out.println(emp1.hashCode() + " " + emp2.hashCode());
-        if (emp1.equals(emp2)) System.out.println("same");
+        for (String str : list) {
+            System.out.println(str);
+        }
     }
 }

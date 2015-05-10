@@ -1,40 +1,39 @@
 package recurssion;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.Collections;
 import java.util.List;
 
 public class Anagrams {
 
+    private List<String> list = new ArrayList<String>();
+    private final int LENGTH;
+
+    public Anagrams(String str) {
+        LENGTH = str.length();
+        getAnagrams(str, "");
+        Collections.sort(list);
+        StringBuilder builder = new StringBuilder();
+        for (String value : list) {
+            builder.append(value).append(",");
+        }
+        builder.deleteCharAt(builder.length() - 1);
+        System.out.println(builder.toString());
+    }
+
     public static void main(String[] args) {
-        Anagrams obj = new Anagrams();
-        List<Character> list = new LinkedList<Character>(Arrays.asList('h', 'a', 't'));
-        obj.getAllPermutations(new StringBuilder(""), list);
+        Anagrams obj = new Anagrams("madhur");
     }
 
-    void getAllPermutations(StringBuilder wordSoFar, List<Character> charLeft) {
-        String str = wordSoFar.toString();
-        if (wordSoFar.length() == 3) {
-            System.out.println(wordSoFar);
-            return;
+    private void getAnagrams(String str, String anagram) {
+        if (anagram.length() == LENGTH) {
+            System.out.println(anagram);
+            list.add(anagram);
+        } else {
+            for (int index = 0; index < str.length(); index++) {
+                String s = str.substring(0, index) + str.substring(index + 1);
+                getAnagrams(s, anagram + str.charAt(index));
+            }
         }
-        for (int index = 0; index < charLeft.size(); index++) {
-            StringBuilder sb = new StringBuilder(str);
-            sb.append(charLeft.get(index));
-            // print combinations with no repetition
-            getAllPermutations(sb, getNewList(index, charLeft));
-
-            // print all possible combinations including repetition of characters
-            //getAllPermutations(sb, charLeft);
-        }
-    }
-
-    List<Character> getNewList(int index, List<Character> lst) {
-        List<Character> newList = new ArrayList<Character>();
-        for (int i = 0; i < lst.size(); i++) {
-            if (i != index) newList.add(lst.get(i));
-        }
-        return newList;
     }
 }
