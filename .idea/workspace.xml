@@ -4,15 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="Added&#10;Create a Binary Tree from given pre and in order&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recurssion/AnagramsWithFixedPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/GuardEmptySpace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/epic/InfixToPostfix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/epic/SplitNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/epic/WellOrderedString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/recurssion/Anagrams.java" afterPath="$PROJECT_DIR$/src/recurssion/Anagrams.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/practiceProblems/Employee.java" afterPath="$PROJECT_DIR$/src/practiceProblems/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedLists/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/LinkedLists/ReverseLinkedList.java" />
+    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="Added&#10;question that have been asked in Epic programming challenges&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/epic/AdditiveNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/epic/SpiralPrinting.java" />
+      <change type="MOVED" beforePath="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\epic\SplitNumber.java" afterPath="$PROJECT_DIR$/src/epic/GenericClass.java" />
+      <change type="MOVED" beforePath="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\recurssion\AnagramsWithFixedPosition.java" afterPath="$PROJECT_DIR$/src/epic/AnagramsWithFixedPosition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/epic/InfixToPostfix.java" afterPath="$PROJECT_DIR$/src/epic/InfixToPostfix.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -46,48 +43,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WellOrderedString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/epic/WellOrderedString.java">
+      <file leaf-file-name="SpiralPrinting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/epic/SpiralPrinting.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplitNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/epic/SplitNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1235#1244#0" expanded="true" />
-                <element signature="e#2251#2260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringProblems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practiceProblems/StringProblems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfixToPostfix.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/epic/InfixToPostfix.java">
+      <file leaf-file-name="GenericClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/epic/GenericClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.02910959">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdditiveNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/epic/AdditiveNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34931508">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -116,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sortingAndArrays/SortedRotatedArray.java" />
-        <option value="$PROJECT_DIR$/Interview-practice.iml" />
-        <option value="$PROJECT_DIR$/src/strings/ParenthesisCombination.java" />
         <option value="$PROJECT_DIR$/src/sortingAndArrays/SortedArrayWithDuplicates.java" />
         <option value="$PROJECT_DIR$/src/sortingAndArrays/countOccuranceInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/sortingAndArrays/CountOccuranceInSortedArray.java" />
@@ -167,6 +146,9 @@
         <option value="$PROJECT_DIR$/src/epic/WellOrderedString.java" />
         <option value="$PROJECT_DIR$/src/epic/SplitNumber.java" />
         <option value="$PROJECT_DIR$/src/epic/InfixToPostfix.java" />
+        <option value="$PROJECT_DIR$/src/epic/SpiralPrinting.java" />
+        <option value="$PROJECT_DIR$/src/epic/GenericClass.java" />
+        <option value="$PROJECT_DIR$/src/epic/AdditiveNumbers.java" />
       </list>
     </option>
   </component>
@@ -212,9 +194,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,30 +240,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="practiceProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="epic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,67 +270,7 @@
       <recent name="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\trees_graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplitNumber">
-    <configuration default="false" name="AnagramsWithFixedPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="recurssion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="recurssion.AnagramsWithFixedPosition" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interview-practice" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="recurssion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="recurssion.Anagrams" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interview-practice" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Factorize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="epic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="epic.Factorize" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interview-practice" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.AdditiveNumbers">
     <configuration default="false" name="WellOrderedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -387,14 +291,74 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SplitNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="epic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="epic.SplitNumber" />
+      <option name="MAIN_CLASS_NAME" value="epic.GenericClass" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="epic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="epic.InfixToPostfix" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpiralPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="epic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="epic.SpiralPrinting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdditiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="epic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="epic.AdditiveNumbers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -555,19 +519,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AnagramsWithFixedPosition" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Anagrams" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Factorize" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WellOrderedString" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SplitNumber" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WellOrderedString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenericClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InfixToPostfix" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SpiralPrinting" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AdditiveNumbers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SplitNumber" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WellOrderedString" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Anagrams" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Factorize" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AnagramsWithFixedPosition" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AdditiveNumbers" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SpiralPrinting" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GenericClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InfixToPostfix" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WellOrderedString" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -718,7 +682,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431029980756</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added&#10;question that have been asked in Epic programming challenges&#10;">
+      <created>1431294345040</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1431294345040</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -783,7 +753,8 @@
     <MESSAGE value="Added&#10;code forString Addition&#10;some other problems pertaining to String&#10;&#10;" />
     <MESSAGE value="Added&#10;code for transforming a binary Tree to a list of Linked List&#10;&#10;" />
     <MESSAGE value="Added&#10;Create a Binary Tree from given pre and in order&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added&#10;Create a Binary Tree from given pre and in order&#10;" />
+    <MESSAGE value="Added&#10;question that have been asked in Epic programming challenges&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added&#10;question that have been asked in Epic programming challenges&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -898,13 +869,13 @@
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recurssion/AnagramsWithFixedPosition.java</url>
+          <url>file://$PROJECT_DIR$/src/epic/AnagramsWithFixedPosition.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recurssion/AnagramsWithFixedPosition.java</url>
+          <url>file://$PROJECT_DIR$/src/epic/AnagramsWithFixedPosition.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="181" />
@@ -914,11 +885,17 @@
           <properties />
           <option name="timeStamp" value="197" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/epic/AdditiveNumbers.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="206" />
+      <option name="time" value="217" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -927,21 +904,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practiceProblems/Hcf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12671232">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/NextHigherNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21917808">
-          <caret line="11" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strings/AllCombinationOfCoins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65068495">
@@ -1173,13 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees_graphs/BTFromPreAndInOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17465754">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees_graphs/BSTFromPreOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4469178">
@@ -1208,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,16 +1183,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recurssion/AnagramsWithFixedPosition.java">
+    <entry file="file://$PROJECT_DIR$/src/epic/AnagramsWithFixedPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#213#227#0" expanded="true" />
-            <element signature="e#285#294#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#207#221#0" expanded="true" />
+            <element signature="e#279#288#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1257,7 +1210,7 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
-            <element signature="e#5896#5897#0" expanded="true" />
+            <element signature="e#5896#5897#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1266,11 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7671233">
           <caret line="34" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#112#120#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1289,7 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.76">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,7 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3685153">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,19 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1824687">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/epic/SplitNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1235#1244#0" expanded="true" />
-            <element signature="e#2251#2260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,8 +1264,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/epic/InfixToPostfix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02910959">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees_graphs/BTFromPreAndInOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/epic/SpiralPrinting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/epic/GenericClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/epic/AdditiveNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34931508">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>
