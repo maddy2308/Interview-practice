@@ -2,10 +2,10 @@ package arrays;
 
 import java.util.Arrays;
 
-public class MaximumSumSubArray {
+public class MaximalSumSubArray {
 
     public static void main(String[] args) {
-        int[] maxArray = new MaximumSumSubArray().getMaximumSum(new int[]{-10, 4, 2, -9, 4, -9, 9, -6, 4, 4});
+        int[] maxArray = new MaximalSumSubArray().getMaximumSum(new int[]{-10, 4, 2, -9, 4, -9, 9, -6, 4, 4});
         for (int num : maxArray){
             System.out.print(num + ", ");
         }
