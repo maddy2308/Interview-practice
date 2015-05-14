@@ -7,44 +7,18 @@ public class LexicographicalString {
 
     public static void main(String[] args) throws IOException {
         LexicographicalString ls = new LexicographicalString();
-        System.out.println(ls.getNextLexicographicalString("abcged"));
-        /*BufferedReader br2 = new BufferedReader(new FileReader("C:\\Users\\madhu_000\\Desktop\\testAnswerLexicographicalOrdering.txt"));
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\madhu_000\\Desktop\\testLexicographicalOrdering.txt"));
-        int i = 0;
-        try {
-            String line = br.readLine();
-            while (line != null) {
-                i++;
-                String str = ls.getNextLexicographicalString(line);
-                System.out.println(str);
-                assert (str).equals(br2.readLine()) : "not matched";
-                line = br.readLine();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            br.close();
-            br2.close();
-        }
-        System.out.println(i);*/
+        System.out.println(ls.getNextLexicographicalString("abcd"));
     }
 
     private String getNextLexicographicalString(String str) {
         char[] arr = str.toCharArray();
-        for (int i = arr.length - 1; i >= 0; i--) {
-            if (i - 1 > 0 && !(arr[i] <= arr[i - 1])) {
-                swap(arr, i, i - 1);
+        for (int i = arr.length - 1; i > 0; i--) {
+            if (!(arr[i] <= arr[i - 1])) {
+                int index = getBiggerChar(arr[i - 1], arr, i);
+                swap(arr, i - 1, index);
                 char[] temp = Arrays.copyOfRange(arr, i, arr.length);
                 Arrays.sort(temp);
                 return getString(Arrays.copyOfRange(arr, 0, i)) + getString(temp);
-            } else if (i == 0) {
-                int index = getBiggerChar(arr[0], arr);
-                if (index > 0) {
-                    swap(arr, index, 0);
-                    char[] temp = Arrays.copyOfRange(arr, 1, arr.length);
-                    Arrays.sort(temp);
-                    return arr[0] + getString(temp);
-                }
             }
         }
         return "no answer";
@@ -64,10 +38,10 @@ public class LexicographicalString {
         return sb.toString();
     }
 
-    private int getBiggerChar(char ch, char[] arr) {
+    private int getBiggerChar(char ch, char[] arr, int j) {
         char max = 256;
         int index = -1;
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = j; i < arr.length; i++) {
             char c = arr[i];
             if ((c > ch) && (c < max)) {
                 max = c;

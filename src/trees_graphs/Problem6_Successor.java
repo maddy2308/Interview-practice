@@ -6,7 +6,7 @@ import Utility.TreeNode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Problem6 {
+public class Problem6_Successor {
 
     private static Set<TreeNode> set = new HashSet<TreeNode>();
 

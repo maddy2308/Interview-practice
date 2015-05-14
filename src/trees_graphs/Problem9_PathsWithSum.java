@@ -6,9 +6,9 @@ import Utility.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Problem9 {
+public class Problem9_PathsWithSum {
     public static void main(String[] args) {
-        Problem9 obj = new Problem9();
+        Problem9_PathsWithSum obj = new Problem9_PathsWithSum();
         obj.findPathsThatHaveSum(new BinaryTree(), 7);
     }
 
