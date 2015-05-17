@@ -4,23 +4,25 @@ public class StringAddition {
 
     public static void main(String[] args) {
         StringAddition sa = new StringAddition();
-        System.out.println(sa.subtractDriver("-11171", "89"));
+        //System.out.println(sa.subtractDriver("-11171", "89"));
+        System.out.println(sa.incrementString("999"));
+        System.out.println(sa.decrementString(sa.incrementString("999")));
     }
 
     private String addTwoStrings(String a, String b) {
         if (((a.charAt(0) == '-') && (b.charAt(0) == '-')) || ((a.charAt(0) != '-') && (b.charAt(0) != '-'))) {
             // add two strings
-            return"";
+            return "";
         } else {
             return subtractDriver(a, b);
         }
     }
 
-    private String additionDriver(String a, String b){
+    private String additionDriver(String a, String b) {
         String result = "";
         String aTemp = a;
         String bTemp = b;
-        if ((a.charAt(0) == '-') && (b.charAt(0) == '-')){
+        if ((a.charAt(0) == '-') && (b.charAt(0) == '-')) {
             aTemp = removeNegativeSign(a);
             bTemp = removeNegativeSign(b);
         }
@@ -104,5 +106,49 @@ public class StringAddition {
         } else {
             makeCarryAvailable(big, i - 1);
         }
+    }
+
+    private String incrementString(String str) {
+        char[] arr = str.toCharArray();
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == '9') {
+                arr[i] = '0';
+            } else {
+                arr[i]++;
+                break;
+            }
+        }
+
+        return arr[0] == '0' ? getStringFromArray(arr, 1) : getStringFromArray(arr, 0);
+    }
+
+    private String decrementString(String str) {
+
+        char[] arr = str.toCharArray();
+        int i = arr.length - 1;
+        if (arr[i] == '0') {
+            borrow(arr, i);
+        } else {
+            arr[i]--;
+        }
+        return getStringFromArray(arr, 0);
+    }
+
+    private void borrow(char arr[], int i) {
+        if (arr[i] > '0') {
+            arr[i]--;
+        } else {
+            borrow(arr, i - 1);
+            if (arr[i] == '0') arr[i] = '9';
+        }
+    }
+
+    private String getStringFromArray(char[] arr, int carry) {
+        StringBuilder sb = new StringBuilder();
+        if (carry > 0) sb.append(carry);
+        for (char ch : arr) {
+            sb.append(ch);
+        }
+        return sb.toString();
     }
 }
