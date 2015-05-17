@@ -1,4 +1,4 @@
-package strings;
+package recurssion;
 
 import java.util.Arrays;
 import java.util.Collections;
