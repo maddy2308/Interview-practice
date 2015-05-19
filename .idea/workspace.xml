@@ -7,11 +7,6 @@
     <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="Added code for&#10;&#10;(1) Longest Arithmetic progression&#10;(2) Finding Square root of a number using Recursion&#10;(Changed the package for certain files)&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recurssion/AllSubsets.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/ArrayMisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees_graphs/BoundaryOfTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dp/FlipForMax1s.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recurssion/MagicIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stacksAndQueues/RangeMerge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/recurssion/AllCombinationOfCoins.java" afterPath="$PROJECT_DIR$/src/recurssion/AllCombinationOfCoins.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -49,11 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlipForMax1s.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlipForMax1s.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dp/FlipForMax1s.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7549296">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayMisc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arrays/ArrayMisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5320946">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -227,7 +232,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dp" />
+              <option name="myItemId" value="arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,7 +254,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="K&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/strings/MaxKStrings.java&#10;longe&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/strings/LongestIncreasingPalindrome.java&#10;sum&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/arrays/MaximumSumSubArray.java&#10;method separator&#9;null&#9;null&#10;expres&#9;PSI&#9;JAVA://practiceProblems.StringProblems#solveExpression&#10;infi&#9;PSI&#9;JAVA://sun.org.mozilla.javascript.internal.ast.InfixExpression&#10;anagrams&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/recurssion/Anagrams.java&#10;Longest&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/strings/LongestIncreasingPalindrome.java&#10;Reg&#9;PSI&#9;JAVA://practiceProblems.RegexPractice&#10;LowestComm&#9;PSI&#9;JAVA://trees_graphs.LowestCommonAncestor" />
+    <property name="SearchEverywhereHistoryKey" value="allsu&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/recurssion/AllSubsets.java&#10;K&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/strings/MaxKStrings.java&#10;longe&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/strings/LongestIncreasingPalindrome.java&#10;sum&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/arrays/MaximumSumSubArray.java&#10;method separator&#9;null&#9;null&#10;expres&#9;PSI&#9;JAVA://practiceProblems.StringProblems#solveExpression&#10;infi&#9;PSI&#9;JAVA://sun.org.mozilla.javascript.internal.ast.InfixExpression&#10;anagrams&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/recurssion/Anagrams.java&#10;Longest&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/strings/LongestIncreasingPalindrome.java&#10;Reg&#9;PSI&#9;JAVA://practiceProblems.RegexPractice&#10;LowestComm&#9;PSI&#9;JAVA://trees_graphs.LowestCommonAncestor" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -650,7 +655,7 @@
       <updated>1430083601365</updated>
       <workItem from="1431540647249" duration="12962000" />
       <workItem from="1431721841937" duration="2394000" />
-      <workItem from="1431726804734" duration="38482000" />
+      <workItem from="1431726804734" duration="38669000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented the code to print all possible sentences if a list of list of words is given (List&lt;List&lt;string&gt;&gt;)&#10;Implemented incrementing of a (=ve and -ve number by 1)&#10;Implemented Reversing a linked list using iterative method">
       <created>1430111824534</created>
@@ -826,15 +831,21 @@
       <option name="project" value="LOCAL" />
       <updated>1431900516922</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added code for&#10;&#10;(1) Flip 1's and 0's to make max number of 1's&#10;(2) magic index&#10;(3) Range merge&#10;(4) Boundary of a tree&#10;&#10;Updated &#10;(1) All combination of coins to take care of the fact that it doesn't print same solution again and again. &#10;">
+      <created>1432000079945</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1432000079945</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53838000" />
+    <option name="totallyTimeSpent" value="54025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -843,16 +854,17 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38225806" sideWeight="0.49092284" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38225806" sideWeight="0.49092284" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33023256" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5106036" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32580644" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22213247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22213247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33387098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
@@ -903,7 +915,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="add some comments to NQueenProblem and made some text changes" />
     <MESSAGE value="Implemented Predecessor and Successor problem." />
     <MESSAGE value="SortedRotatedArray had a missing condition to find the pivot" />
     <MESSAGE value="NA" />
@@ -928,7 +939,8 @@
     <MESSAGE value="Added&#10;modified name of classes&#10;" />
     <MESSAGE value="Added code for&#10;&#10;(1) Median of Sorted Array&#10;(2) Finding mid of Linked List in O(n) (One iteration) and O(1) space&#10;(3) Replace space with '%20' &#10;(4) Incrementing and decrement a String as a number by 1&#10;(5) Spiral Printing of Binary Tree&#10;(6) Print all possible Key strokes based on a given number&#10;(7) &#10;Finding largest Sub array with equal number of 1's and 0's (incomplete solution)" />
     <MESSAGE value="Added code for&#10;&#10;(1) Longest Arithmetic progression&#10;(2) Finding Square root of a number using Recursion&#10;(Changed the package for certain files)&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code for&#10;&#10;(1) Longest Arithmetic progression&#10;(2) Finding Square root of a number using Recursion&#10;(Changed the package for certain files)&#10;" />
+    <MESSAGE value="Added code for&#10;&#10;(1) Flip 1's and 0's to make max number of 1's&#10;(2) magic index&#10;(3) Range merge&#10;(4) Boundary of a tree&#10;&#10;Updated &#10;(1) All combination of coins to take care of the fact that it doesn't print same solution again and again. &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code for&#10;&#10;(1) Flip 1's and 0's to make max number of 1's&#10;(2) magic index&#10;(3) Range merge&#10;(4) Boundary of a tree&#10;&#10;Updated &#10;(1) All combination of coins to take care of the fact that it doesn't print same solution again and again. &#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1542,26 +1554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ArrayMisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/recurssion/MagicIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/recurssion/AllSubsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1571,7 +1567,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#188#196#0" expanded="true" />
+            <element signature="e#271#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1596,10 +1592,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/recurssion/AllSubsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33802816">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/FlipForMax1s.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7549296">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/ArrayMisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5320946">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
