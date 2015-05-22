@@ -11,8 +11,6 @@ public class StringProblems {
         //System.out.println(sp.generateLowestNumber("121198", 4));
         //System.out.println(sp.solve("( + + 7 ( * 8 12 ) ( * * 2 ( + 9 4 ) 7 )"));
         //System.out.println(sp.findLongestUniqueSubstring("123145"));
-        //sp.replaceAllWildCharacters("0?1?", 0);
-        //System.out.println(sp.list);
         //System.out.println(sp.compressStringDriver(70));
         //sp.reverseWords("hello madhur  t");
         //sp.stringTokenizer("thi is a test case is for testing", ' ');
@@ -166,25 +164,6 @@ public class StringProblems {
 
         }
         return soFar.toString();
-    }
-
-    private List<String> list = new ArrayList<String>();
-
-    private void replaceAllWildCharacters(String str, int i) {
-        if (!str.contains("?")) {
-            list.add(str);
-        } else {
-            StringBuilder sb = new StringBuilder(str);
-            for (; i <= str.indexOf('?'); i++) {
-                if (str.charAt(i) == '?') {
-                    char[] possibilities = new char[]{'0', '1'};
-                    for (char ch : possibilities) {
-                        sb.setCharAt(i, ch);
-                        replaceAllWildCharacters(sb.toString(), i + 1);
-                    }
-                }
-            }
-        }
     }
 
     private String compressStringDriver(int n) {

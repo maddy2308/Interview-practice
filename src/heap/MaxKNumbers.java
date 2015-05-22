@@ -41,7 +41,6 @@ public class MaxKNumbers {
             }
         }
         System.out.println(pq);
-        System.out.println(pq.size());
     }
 
     private static class PriorityQueueComparator implements Comparator<Map.Entry<Integer, Integer>> {

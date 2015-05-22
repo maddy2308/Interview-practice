@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="Added code for finding the length of Longest Palindromic Sub-sequence">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/heap/MaxKNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees_graphs/PrintLevelOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/RemoveExtraSpaces.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dp/GenerateI18NCombination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recurssion/ReplaceWildCharacters.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Solution2.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practiceProblems/TechGig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/heap/MaxKNumbers.java" afterPath="$PROJECT_DIR$/src/heap/MaxKNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/practiceProblems/StringProblems.java" afterPath="$PROJECT_DIR$/src/practiceProblems/StringProblems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -48,12 +49,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="GenerateI18NCombination.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/GenerateI18NCombination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#115#123#0" expanded="true" />
+                <element signature="e#1409#1417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MaxKNumbers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/heap/MaxKNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39538714">
-              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.37067544">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
+                <element signature="e#462#480#0" expanded="true" />
                 <element signature="e#935#964#0" expanded="true" />
               </folding>
             </state>
@@ -83,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/epic/FindIslandsAndRateColors.java" />
-        <option value="$PROJECT_DIR$/src/epic/FindIslands.java" />
-        <option value="$PROJECT_DIR$/src/arrays/Arpit.java" />
         <option value="$PROJECT_DIR$/src/epic/RateColors.java" />
         <option value="$PROJECT_DIR$/src/epic/GenericClass.java" />
         <option value="$PROJECT_DIR$/src/Resources/testAnswerLexicographicalOrdering" />
@@ -133,6 +145,9 @@
         <option value="$PROJECT_DIR$/src/test/Solution2.java" />
         <option value="$PROJECT_DIR$/src/strings/RemoveExtraSpaces.java" />
         <option value="$PROJECT_DIR$/src/heap/MaxKStrings.java" />
+        <option value="$PROJECT_DIR$/src/recurssion/ReplaceWildCharacters.java" />
+        <option value="$PROJECT_DIR$/src/practiceProblems/StringProblems.java" />
+        <option value="$PROJECT_DIR$/src/dp/GenerateI18NCombination.java" />
         <option value="$PROJECT_DIR$/src/heap/MaxKNumbers.java" />
       </list>
     </option>
@@ -228,25 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heap" />
+              <option name="myItemId" value="arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +265,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="MaxK&#9;PSI&#9;JAVA://strings.MaxKStrings&#10;Max&#9;PSI&#9;JAVA://heap.MaxKStrings&#10;longe&#9;PSI&#9;JAVA://dp.LongestIncreasingSubsequence&#10;allsu&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/recurssion/AllSubsets.java&#10;K&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/strings/MaxKStrings.java&#10;sum&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/arrays/MaximumSumSubArray.java&#10;method separator&#9;null&#9;null&#10;expres&#9;PSI&#9;JAVA://practiceProblems.StringProblems#solveExpression&#10;infi&#9;PSI&#9;JAVA://sun.org.mozilla.javascript.internal.ast.InfixExpression&#10;anagrams&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/recurssion/Anagrams.java&#10;Longest&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/strings/LongestIncreasingPalindrome.java&#10;Reg&#9;PSI&#9;JAVA://practiceProblems.RegexPractice&#10;LowestComm&#9;PSI&#9;JAVA://trees_graphs.LowestCommonAncestor" />
+    <property name="SearchEverywhereHistoryKey" value="MaxK&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/heap/MaxKNumbers.java&#10;auto impor&#9;null&#9;null&#10;Max&#9;PSI&#9;JAVA://heap.MaxKStrings&#10;longe&#9;PSI&#9;JAVA://dp.LongestIncreasingSubsequence&#10;allsu&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/recurssion/AllSubsets.java&#10;K&#9;FILE&#9;file:///Users/maddy/Interview-practice/Interview-practice/src/strings/MaxKStrings.java&#10;sum&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/arrays/MaximumSumSubArray.java&#10;method separator&#9;null&#9;null&#10;expres&#9;PSI&#9;JAVA://practiceProblems.StringProblems#solveExpression&#10;infi&#9;PSI&#9;JAVA://sun.org.mozilla.javascript.internal.ast.InfixExpression&#10;anagrams&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/recurssion/Anagrams.java&#10;Longest&#9;FILE&#9;file://C:/Users/madhu_000/Documents/GitHub/InterviewPracticeQuestions/Interview-practice/src/strings/LongestIncreasingPalindrome.java&#10;Reg&#9;PSI&#9;JAVA://practiceProblems.RegexPractice&#10;LowestComm&#9;PSI&#9;JAVA://trees_graphs.LowestCommonAncestor" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -276,6 +273,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -283,7 +282,7 @@
       <recent name="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\trees_graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxKNumbers">
+  <component name="RunManager" selected="Application.GenerateI18NCombination">
     <configuration default="false" name="MaxKNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -324,14 +323,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="practiceProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="test.Solution" />
+      <option name="MAIN_CLASS_NAME" value="practiceProblems.StringProblems" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -344,14 +343,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ReplaceWildCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="recurssion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="test.Solution2" />
+      <option name="MAIN_CLASS_NAME" value="recurssion.ReplaceWildCharacters" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenerateI18NCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dp.GenerateI18NCombination" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -636,19 +655,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.TechGig" />
       <item index="1" class="java.lang.String" itemvalue="Application.MaxKNumbers" />
       <item index="2" class="java.lang.String" itemvalue="Application.RemoveExtraSpaces" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringProblems" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReplaceWildCharacters" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GenerateI18NCombination" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.MaxKNumbers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RemoveExtraSpaces" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.GenerateI18NCombination" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReplaceWildCharacters" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringProblems" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MaxKNumbers" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RemoveExtraSpaces" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -671,7 +692,7 @@
       <workItem from="1431726804734" duration="38819000" />
       <workItem from="1432068134885" duration="6480000" />
       <workItem from="1432146524407" duration="11447000" />
-      <workItem from="1432256240940" duration="2815000" />
+      <workItem from="1432256240940" duration="7641000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented the code to print all possible sentences if a list of list of words is given (List&lt;List&lt;string&gt;&gt;)&#10;Implemented incrementing of a (=ve and -ve number by 1)&#10;Implemented Reversing a linked list using iterative method">
       <created>1430111824534</created>
@@ -871,11 +892,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432159219346</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added Code &#10;&#10;(1) for finding Max of K numbers from 1000 numbers using priority Queue&#10;(2) Removing Extra Spaces from a given String.">
+      <created>1432259672686</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1432259672686</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74917000" />
+    <option name="totallyTimeSpent" value="79743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -949,7 +976,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="changed packages for certains files and added code for couting number of occurances of a number in sorted array with O(lon n) complexity" />
     <MESSAGE value="Added code to check if the rotates string is palindrome or not" />
     <MESSAGE value="Added code for all possible combination of a coin with given Sum.&#10;Added code for Closest Value in BST" />
     <MESSAGE value="Changed Heap ADS, to allow max and Min both now. It needs refactoring specifically using strategy design pattern to accomodate the fact that there is lot of redundant code." />
@@ -974,7 +1000,8 @@
     <MESSAGE value="Added code for&#10;&#10;(1) added code for binary search and finding first index of that element using binary search in sorted array.&#10;(2) no code added for all subsets yet." />
     <MESSAGE value="Added code to follow a sequence of instruction given to Robot." />
     <MESSAGE value="Added code for finding the length of Longest Palindromic Sub-sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code for finding the length of Longest Palindromic Sub-sequence" />
+    <MESSAGE value="Added Code &#10;&#10;(1) for finding Max of K numbers from 1000 numbers using priority Queue&#10;(2) Removing Extra Spaces from a given String." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Code &#10;&#10;(1) for finding Max of K numbers from 1000 numbers using priority Queue&#10;(2) Removing Extra Spaces from a given String." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1072,7 +1099,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practiceProblems/StringProblems.java</url>
-          <line>260</line>
+          <line>239</line>
           <properties />
           <option name="timeStamp" value="146" />
         </line-breakpoint>
@@ -1233,7 +1260,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/trees_graphs/PrintLevelOrder.java</url>
-          <line>50</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="307" />
         </line-breakpoint>
@@ -1249,11 +1276,17 @@
           <properties />
           <option name="timeStamp" value="314" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dp/GenerateI18NCombination.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="318" />
+      <option name="time" value="325" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1262,43 +1295,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/epic/SpiralPrinting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64041096">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MaximalSumSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95408165">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/epic/FindIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="9" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/Arpit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47260273">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/epic/RateColors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/epic/SnakeProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11643836">
@@ -1426,14 +1422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practiceProblems/StringProblems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41722974">
-          <caret line="278" column="13" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practiceProblems/ReplaceSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38006756">
@@ -1481,14 +1469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/LongestArithmeticProgression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/recurssion/SquareRoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1522,13 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recurssion/AllCombinationOfCoins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stacksAndQueues/RangeMerge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1551,14 +1524,6 @@
             <element signature="e#94#95#0" expanded="false" />
             <element signature="e#142#143#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ArrayMisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46952224">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,11 +1578,11 @@
         <state vertical-scroll-proportion="0.8517298">
           <caret line="64" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
           <folding>
-            <element signature="e#404#414#0" expanded="false" />
-            <element signature="e#455#456#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#577#587#0" expanded="false" />
-            <element signature="e#639#654#0" expanded="false" />
+            <element signature="e#405#415#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#579#589#0" expanded="false" />
+            <element signature="e#641#656#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1626,6 +1591,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33164558">
           <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding>
+            <element signature="e#5047#5048#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1662,17 +1630,97 @@
         <state vertical-scroll-proportion="0.75949365">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/GuardEmptySpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24711697">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/CountOccuranceInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049423393">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/ArrayMisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46952224">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recurssion/KthLargestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6672158">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recurssion/ReplaceWildCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38220757">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recurssion/AllCombinationOfCoins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40691927">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practiceProblems/StringProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49423394">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/LongestArithmeticProgression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/GenerateI18NCombination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#115#123#0" expanded="true" />
+            <element signature="e#1409#1417#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/heap/MaxKNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39538714">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.37067544">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
+            <element signature="e#462#480#0" expanded="true" />
             <element signature="e#935#964#0" expanded="true" />
           </folding>
         </state>
