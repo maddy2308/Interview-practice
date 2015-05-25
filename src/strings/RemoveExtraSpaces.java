@@ -27,8 +27,7 @@ public class RemoveExtraSpaces {
         for (String s : split) {
             sb.append(s).append(" ");
         }
-        String s = sb.toString();
-        return s.substring(0, s.length() - 1);
+        return sb.toString().trim();
     }
 
     public static void main(String[] args) {
