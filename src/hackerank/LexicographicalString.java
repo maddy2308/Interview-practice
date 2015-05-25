@@ -7,7 +7,7 @@ public class LexicographicalString {
 
     public static void main(String[] args) throws IOException {
         LexicographicalString ls = new LexicographicalString();
-        System.out.println(ls.getNextLexicographicalString("abcd"));
+        System.out.println(ls.getNextLexicographicalString("dcba"));
     }
 
     private String getNextLexicographicalString(String str) {
