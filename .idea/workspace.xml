@@ -4,9 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="Added method to remove extra spaces using Regex.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practiceProblems/FibonacciSequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/RemoveExtraSpaces.java" afterPath="$PROJECT_DIR$/src/strings/RemoveExtraSpaces.java" />
+    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="Added code to get fibonacci number using Golden Ration method.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/practiceProblems/FibonacciSequence.java" afterPath="$PROJECT_DIR$/src/practiceProblems/FibonacciSequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -57,8 +56,8 @@
       <file leaf-file-name="FibonacciSequence.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/practiceProblems/FibonacciSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7721519">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.278481">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -684,7 +683,7 @@
       <workItem from="1432068134885" duration="6480000" />
       <workItem from="1432146524407" duration="11447000" />
       <workItem from="1432256240940" duration="12711000" />
-      <workItem from="1432525848043" duration="3854000" />
+      <workItem from="1432525848043" duration="4030000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented the code to print all possible sentences if a list of list of words is given (List&lt;List&lt;string&gt;&gt;)&#10;Implemented incrementing of a (=ve and -ve number by 1)&#10;Implemented Reversing a linked list using iterative method">
       <created>1430111824534</created>
@@ -908,11 +907,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432531820686</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added code to get fibonacci number using Golden Ration method.">
+      <created>1432555248567</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1432555248567</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88667000" />
+    <option name="totallyTimeSpent" value="88843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -936,7 +941,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22132471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33385828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33385828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -959,7 +964,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Added code for converting Ternary Expression to Binary Tree" />
     <MESSAGE value="Added code for Maximum Sum sub array" />
     <MESSAGE value="Added code for LongestIncreasingSubSequence" />
     <MESSAGE value="Changed package of LIS and LIPs to Strings&#10;Took care of the condition if any of the children is missing from Binary Tree we say LCA not found." />
@@ -984,7 +988,8 @@
     <MESSAGE value="Added code for generating all combination of I18N, IN17N .... ,Internationalization" />
     <MESSAGE value="Added code for&#10;&#10;(1) Finding primes using algo from wiki i.e removing composites and and used BiteSet &#10;(2) added code for Zenefits and TechGig" />
     <MESSAGE value="Added method to remove extra spaces using Regex." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added method to remove extra spaces using Regex." />
+    <MESSAGE value="Added code to get fibonacci number using Golden Ration method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to get fibonacci number using Golden Ration method." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1675,8 +1680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practiceProblems/FibonacciSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7721519">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.278481">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
