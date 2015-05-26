@@ -4,9 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added code for Left View of Tree">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/NextGreatestElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/trees_graphs/LeftViewOfTree.java" afterPath="$PROJECT_DIR$/src/trees_graphs/ViewOfTree.java" />
+    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added code for NextGreatestElement in array on right of that element.&#10;Renamed the LeftViewOfTree to ViewOfTree as it displayes left and right (both views)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dp/CuttingRod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -44,26 +43,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NextGreatestElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/NextGreatestElement.java">
+      <file leaf-file-name="CuttingRod.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dp/CuttingRod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.46952224">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#275#284#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#432#450#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedianOfSortedArrays.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays/MedianOfSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35584843">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees_graphs/Problem9_PathsWithSum.java" />
         <option value="$PROJECT_DIR$/src/epic/ConvertAnagramToAnagram.java" />
         <option value="$PROJECT_DIR$/src/trees_graphs/BSTFromPreOrder.java" />
         <option value="$PROJECT_DIR$/src/practiceProblems/RemoveSameColor.java" />
@@ -142,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/trees_graphs/ViewOfTree.java" />
         <option value="$PROJECT_DIR$/src/arrays/NextGreatestElement.java" />
         <option value="$PROJECT_DIR$/src/test/Solution3.java" />
+        <option value="$PROJECT_DIR$/src/dp/CuttingRod.java" />
       </list>
     </option>
   </component>
@@ -237,7 +225,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="dp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,27 +263,7 @@
       <recent name="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\trees_graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NextGreatestElement">
-    <configuration default="false" name="RemoveExtraSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="strings.RemoveExtraSpaces" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interview-practice" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CuttingRod">
     <configuration default="false" name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -364,6 +332,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="arrays.NextGreatestElement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CuttingRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dp.CuttingRod" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -650,19 +638,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.TechGig" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RemoveExtraSpaces" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FibonacciSequence" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ViewOfTree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SpiralPrintingBinaryTree" />
-      <item index="5" class="java.lang.String" itemvalue="Application.NextGreatestElement" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FibonacciSequence" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ViewOfTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SpiralPrintingBinaryTree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NextGreatestElement" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CuttingRod" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NextGreatestElement" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpiralPrintingBinaryTree" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ViewOfTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FibonacciSequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RemoveExtraSpaces" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CuttingRod" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NextGreatestElement" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpiralPrintingBinaryTree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ViewOfTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FibonacciSequence" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -686,7 +674,7 @@
       <workItem from="1432068134885" duration="6480000" />
       <workItem from="1432146524407" duration="11447000" />
       <workItem from="1432256240940" duration="12711000" />
-      <workItem from="1432525848043" duration="7942000" />
+      <workItem from="1432525848043" duration="10632000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented the code to print all possible sentences if a list of list of words is given (List&lt;List&lt;string&gt;&gt;)&#10;Implemented incrementing of a (=ve and -ve number by 1)&#10;Implemented Reversing a linked list using iterative method">
       <created>1430111824534</created>
@@ -928,11 +916,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432587752954</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="added code for NextGreatestElement in array on right of that element.&#10;Renamed the LeftViewOfTree to ViewOfTree as it displayes left and right (both views)">
+      <created>1432658014058</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1432658014058</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92755000" />
+    <option name="totallyTimeSpent" value="95445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -979,7 +973,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Changed package of LIS and LIPs to Strings&#10;Took care of the condition if any of the children is missing from Binary Tree we say LCA not found." />
     <MESSAGE value="Added&#10;(1) code for brick problem&#10;(2) code for BST from preorder&#10;(3) code for Stack using Queue&#10;(4) code for String and LinkedList problems&#10;&#10;" />
     <MESSAGE value="Added&#10;code for Longest Common Subsequence&#10;&#10;" />
     <MESSAGE value="Added&#10;code for Longest Common Subsequence&#10;programmin challenge from Vecna&#10;&#10;" />
@@ -1004,7 +997,8 @@
     <MESSAGE value="Added code to get fibonacci number using Golden Ration method." />
     <MESSAGE value="added the formula used to calculate the fibonacci sequence using Golden ratio method" />
     <MESSAGE value="added code for Left View of Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code for Left View of Tree" />
+    <MESSAGE value="added code for NextGreatestElement in array on right of that element.&#10;Renamed the LeftViewOfTree to ViewOfTree as it displayes left and right (both views)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for NextGreatestElement in array on right of that element.&#10;Renamed the LeftViewOfTree to ViewOfTree as it displayes left and right (both views)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1285,11 +1279,17 @@
           <properties />
           <option name="timeStamp" value="346" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dp/CuttingRod.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="347" />
+      <option name="time" value="349" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1676,8 +1676,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding>
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1698,23 +1698,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MedianOfSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6029654">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/NextGreatestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.42009884">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
             <element signature="e#275#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/MedianOfSortedArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/dp/CuttingRod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35584843">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
+        <state vertical-scroll-proportion="0.46952224">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#450#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
