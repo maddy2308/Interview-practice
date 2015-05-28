@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added code for&#10;&#10;finding if a String can be broken into words found in Dictionary.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practiceProblems/SplitStringUsingDelimiter.java" />
+    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added code for&#10;&#10;Splitting a string using a delimiter(char or String)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees_graphs/SumOfLeftLeaves.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -42,7 +42,20 @@
     <favorites_list name="Interview-practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SumOfLeftLeaves.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trees_graphs/SumOfLeftLeaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6177924">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees_graphs/SpiralPrintingBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/recurssion/LargestSubArray.java" />
         <option value="$PROJECT_DIR$/src/recurssion/PrintKeyStrokes.java" />
         <option value="$PROJECT_DIR$/src/arrays/MedianOfSortedArrays.java" />
@@ -116,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/dp/NumberOfWaysToGetSum.java" />
         <option value="$PROJECT_DIR$/src/dp/WordBreakProblem.java" />
         <option value="$PROJECT_DIR$/src/practiceProblems/SplitStringUsingDelimiter.java" />
+        <option value="$PROJECT_DIR$/src/trees_graphs/SumOfLeftLeaves.java" />
       </list>
     </option>
   </component>
@@ -213,25 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="recurssion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interview-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practiceProblems" />
+              <option name="myItemId" value="trees_graphs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,27 +262,7 @@
       <recent name="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\trees_graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParenthesisCombination">
-    <configuration default="false" name="NumberOfWaysToGetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="dp.NumberOfWaysToGetSum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interview-practice" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SumOfLeftLeaves">
     <configuration default="false" name="AllCombinationOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -356,6 +331,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="recurssion.ParenthesisCombination" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SumOfLeftLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="trees_graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="trees_graphs.SumOfLeftLeaves" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -642,19 +637,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.TechGig" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NumberOfWaysToGetSum" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AllCombinationOfCoins" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WordBreakProblem" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SplitStringUsingDelimiter" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ParenthesisCombination" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AllCombinationOfCoins" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WordBreakProblem" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SplitStringUsingDelimiter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ParenthesisCombination" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SumOfLeftLeaves" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ParenthesisCombination" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SumOfLeftLeaves" />
         <item index="1" class="java.lang.String" itemvalue="Application.SplitStringUsingDelimiter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordBreakProblem" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AllCombinationOfCoins" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NumberOfWaysToGetSum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ParenthesisCombination" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WordBreakProblem" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AllCombinationOfCoins" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -679,7 +674,7 @@
       <workItem from="1432146524407" duration="11447000" />
       <workItem from="1432256240940" duration="12711000" />
       <workItem from="1432525848043" duration="19880000" />
-      <workItem from="1432748021692" duration="323000" />
+      <workItem from="1432748021692" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented the code to print all possible sentences if a list of list of words is given (List&lt;List&lt;string&gt;&gt;)&#10;Implemented incrementing of a (=ve and -ve number by 1)&#10;Implemented Reversing a linked list using iterative method">
       <created>1430111824534</created>
@@ -945,15 +940,21 @@
       <option name="project" value="LOCAL" />
       <updated>1432692988884</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="added code for&#10;&#10;Splitting a string using a delimiter(char or String)">
+      <created>1432767928855</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1432767928855</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105016000" />
+    <option name="totallyTimeSpent" value="106254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -971,7 +972,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22132471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22132471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33385828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -996,7 +997,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Added&#10;code forString Addition&#10;some other problems pertaining to String&#10;&#10;" />
     <MESSAGE value="Added&#10;code for transforming a binary Tree to a list of Linked List&#10;&#10;" />
     <MESSAGE value="Added&#10;Create a Binary Tree from given pre and in order&#10;" />
     <MESSAGE value="Added&#10;question that have been asked in Epic programming challenges&#10;" />
@@ -1021,7 +1021,8 @@
     <MESSAGE value="added code for Cutting Rod DP problem" />
     <MESSAGE value="added code for&#10;&#10;(1) Minimum coins required to get a particular sum given various denomination of coins.&#10;(2) Number of ways we can reach a Sum given all denomination of coins" />
     <MESSAGE value="added code for&#10;&#10;finding if a String can be broken into words found in Dictionary." />
-    <option name="LAST_COMMIT_MESSAGE" value="added code for&#10;&#10;finding if a String can be broken into words found in Dictionary." />
+    <MESSAGE value="added code for&#10;&#10;Splitting a string using a delimiter(char or String)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for&#10;&#10;Splitting a string using a delimiter(char or String)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1308,11 +1309,17 @@
           <properties />
           <option name="timeStamp" value="358" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/trees_graphs/SumOfLeftLeaves.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="361" />
+      <option name="time" value="362" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1321,13 +1328,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strings/RotatedStringPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64935064">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedLists/MiddleOfLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5287162">
@@ -1690,13 +1690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practiceProblems/SplitStringUsingDelimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22240527">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/RemoveElementsThatRepeat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.049423393">
@@ -1730,6 +1723,24 @@
           <folding>
             <element signature="e#103#104#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practiceProblems/SplitStringUsingDelimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6962025">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees_graphs/SumOfLeftLeaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6177924">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
