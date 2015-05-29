@@ -43,4 +43,45 @@ public class BinaryTree {
         root = new TreeNode(null, nodeL, nodeR, 9);
         return root;
     }
+
+    public static TreeNode getBinaryTree2() {
+        TreeNode root = new TreeNode(null, null, null, 1);
+        root.setLeftChildNode(new TreeNode(null, new TreeNode(null, new TreeNode(null, null, null, 7), null, 4),
+                new TreeNode(null, null, null, 5), 2));
+
+        root.setRightChildNode(new TreeNode(null, null, new TreeNode(null, new TreeNode(null, null, null, 8), null, 6),
+                3));
+
+        return root;
+    }
+
+
+    /*
+               1
+             /   \
+            2      3
+                 /   \
+                4     5
+               /       \
+              6         7
+             / \       /
+            8   9     10
+     */
+
+    public static TreeNode getBinaryTree3() {
+        TreeNode root = new TreeNode(null, null, null, 1);
+
+        root.setLeftChildNode(new TreeNode(null, null, null, 2));
+        TreeNode sixSubTree = new TreeNode(null, new TreeNode(null, null, null, 8), new TreeNode(null, null, null, 9), 6);
+        TreeNode sevenSubTree = new TreeNode(null, new TreeNode(null, null, null, 10), null, 7);
+
+
+        root.setRightChildNode(new TreeNode(null,
+                new TreeNode(null, sixSubTree, null, 4),
+                new TreeNode(null, null, sevenSubTree, 5),
+                3));
+
+        return root;
+    }
+
 }
