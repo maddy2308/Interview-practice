@@ -44,6 +44,18 @@ public class BinaryTree {
         return root;
     }
 
+    /*
+                1
+              /   \
+             2     3
+           /   \     \
+          4    5      6
+         /            /
+        7            8
+
+     */
+
+
     public static TreeNode getBinaryTree2() {
         TreeNode root = new TreeNode(null, null, null, 1);
         root.setLeftChildNode(new TreeNode(null, new TreeNode(null, new TreeNode(null, null, null, 7), null, 4),
@@ -60,8 +72,8 @@ public class BinaryTree {
                1
              /   \
             2      3
-                 /   \
-                4     5
+          /  \   /   \
+         11  12 4     5
                /       \
               6         7
              / \       /
@@ -71,7 +83,7 @@ public class BinaryTree {
     public static TreeNode getBinaryTree3() {
         TreeNode root = new TreeNode(null, null, null, 1);
 
-        root.setLeftChildNode(new TreeNode(null, null, null, 2));
+        root.setLeftChildNode(new TreeNode(null, new TreeNode(null, null, null, 11), new TreeNode(null, null, null, 12), 2));
         TreeNode sixSubTree = new TreeNode(null, new TreeNode(null, null, null, 8), new TreeNode(null, null, null, 9), 6);
         TreeNode sevenSubTree = new TreeNode(null, new TreeNode(null, null, null, 10), null, 7);
 

@@ -21,6 +21,11 @@ public class TreeQuestions {
         TreeNode newRoot = removeNodes(root, 4, 1);
         Tree.displayTree(newRoot);
 
+        // running the question to find the distance between two nodes
+        root = BinaryTree.getBinaryTree2();
+        Tree.displayTree(root);
+        System.out.println(distanceBetweenTwoNodes(root, 3, 7));
+
     }
 
     // Remove nodes on root to leaf paths of length < K
@@ -105,6 +110,39 @@ public class TreeQuestions {
             }
             map.put(node, height - 1);
             return height;
+        }
+    }
+
+
+    /*
+        Find distance between two given keys of a Binary Tree
+        link on geek for geeks --> http://www.geeksforgeeks.org/find-distance-two-given-nodes/
+     */
+
+    private static int distanceBetweenTwoNodes(TreeNode root, int first, int second) {
+
+        TreeNode lca = new LowestCommonAncestor().findLowestCommonAncestorInBT(root, first, second);
+        System.out.println(lca.getData());
+
+        // do double dfs to get the distance from the lca to the two nodes that contains the keys
+        int firstLength = dfs(lca, first);
+        int secondLength = dfs(lca, second);
+
+        return firstLength + secondLength;
+    }
+
+    private static int dfs(TreeNode root, int key) {
+        if (root == null)
+            return -1;
+        else if ((Integer) root.getData() == key) {
+            return 0;
+        } else {
+            int left = dfs(root.getLeftChildNode(), key);
+            int right = -1;
+            if (left < 0) {
+                right = dfs(root.getRightChildNode(), key);
+            }
+            return (left >= 0 || right >= 0) ? (Math.max(left, right) + 1) : Math.max(left, right);
         }
     }
 }
