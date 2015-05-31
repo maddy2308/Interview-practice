@@ -96,4 +96,35 @@ public class BinaryTree {
         return root;
     }
 
+    // binary tree 4 and 5 are isomorphic to each other
+    public static TreeNode getBinaryTree4() {
+        TreeNode n1 = new TreeNode(null, null, null, 1);
+        n1.setLeftChildNode(new TreeNode(null, null, null, 2));
+        n1.setRightChildNode(new TreeNode(null, null, null, 3));
+
+        n1.getLeftChildNode().setLeftChildNode(new TreeNode(null, null, null, 4));
+        n1.getLeftChildNode().setRightChildNode(new TreeNode(null, null, null, 5));
+
+        n1.getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 6));
+        n1.getLeftChildNode().getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 7));
+        n1.getLeftChildNode().getRightChildNode().setRightChildNode(new TreeNode(null, null, null, 8));
+        return n1;
+    }
+
+
+    public static TreeNode getBinaryTree5() {
+        TreeNode n2 = new TreeNode(null, null, null, 1);
+        n2.setLeftChildNode(new TreeNode(null, null, null, 3));
+        n2.setRightChildNode(new TreeNode(null, null, null, 2));
+
+        n2.getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 4));
+        n2.getRightChildNode().setRightChildNode(new TreeNode(null, null, null, 5));
+
+        n2.getLeftChildNode().setRightChildNode(new TreeNode(null, null, null, 6));
+        n2.getRightChildNode().getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 8));
+        n2.getRightChildNode().getRightChildNode().setRightChildNode(new TreeNode(null, null, null, 7));
+
+        return n2;
+    }
+
 }
