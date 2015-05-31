@@ -127,4 +127,24 @@ public class BinaryTree {
         return n2;
     }
 
+    public static TreeNode getBigBinaryTree() {
+        TreeNode root = new TreeNode(null, null, null, 1);
+        root.setLeftChildNode(new TreeNode(null, null, null, 2));
+        root.setRightChildNode(new TreeNode(null, null, null, 3));
+        root.getLeftChildNode().setLeftChildNode(new TreeNode(null, null, null, 4));
+        root.getLeftChildNode().setRightChildNode(new TreeNode(null, null, null, 5));
+        root.getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 6));
+        root.getRightChildNode().setRightChildNode(new TreeNode(null, null, null, 7));
+        root.getLeftChildNode().getLeftChildNode().setLeftChildNode(new TreeNode(null, null, null, 8));
+        root.getLeftChildNode().getLeftChildNode().setRightChildNode(new TreeNode(null, null, null, 9));
+        root.getLeftChildNode().getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 12));
+        root.getRightChildNode().getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 10));
+        root.getLeftChildNode().getLeftChildNode().getRightChildNode().setLeftChildNode(new TreeNode(null, null, null, 13));
+        root.getLeftChildNode().getLeftChildNode().getRightChildNode().setRightChildNode(new TreeNode(null, null, null, 14));
+        root.getRightChildNode().getRightChildNode().getLeftChildNode().setRightChildNode(new TreeNode(null, null, null, 11));
+        root.getLeftChildNode().getLeftChildNode().getRightChildNode().getRightChildNode().setRightChildNode(new TreeNode(null, null, null, 15));
+
+        return root;
+    }
+
 }
