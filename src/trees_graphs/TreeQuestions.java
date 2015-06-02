@@ -4,8 +4,7 @@ import Utility.BinaryTree;
 import Utility.Tree;
 import Utility.TreeNode;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class TreeQuestions {
 
@@ -13,7 +12,7 @@ public class TreeQuestions {
     private static Map<TreeNode, TreeNode> parentChildMap = new HashMap<TreeNode, TreeNode>();
 
     public static void main(String[] args) {
-        driverMethodToRun(5);
+        driverMethodToRun(6);
     }
 
     private static void driverMethodToRun(int questionNumber) {
@@ -55,6 +54,12 @@ public class TreeQuestions {
                 Tree.displayTree(root);
                 root = removeNodesLessThanSumK(root, 0, 20);
                 Tree.displayTree(root);
+            }
+            case 6: {
+                // Level Order traversal in Reverse
+                root = BinaryTree.getBigBinaryTree();
+                Tree.displayTree(root);
+                levelOrderInReverse(root);
             }
 
         }
@@ -273,6 +278,58 @@ public class TreeQuestions {
                 return null;
             else {
                 return root;
+            }
+        }
+    }
+
+
+    /*
+            Print level order traversal of BT in reverse
+
+                        10
+                       /  \
+                      20  30
+                     / \    \
+                    40 50   60
+                      / \     \
+                     70 80    90
+
+                OUTPUT :
+                            70, 80, 90
+                            40, 50, 60
+                            20, 30
+                            10
+     */
+
+    public static void levelOrderInReverse(TreeNode root) {
+        int previousLevel = 0, currentLevel = 0;
+        if (root != null) {
+            Stack<Queue<Integer>> st = new Stack<Queue<Integer>>();
+            Queue<TreeNode> q = new LinkedList<TreeNode>();
+            Queue<Integer> loi = new LinkedList<Integer>();
+            q.add(root);
+            previousLevel++;
+            while (!q.isEmpty()) {
+                TreeNode node = q.poll();
+                loi.add((Integer) node.getData());
+                previousLevel--;
+                if (node.getLeftChildNode() != null) {
+                    currentLevel++;
+                    q.add(node.getLeftChildNode());
+                }
+                if (node.getRightChildNode() != null) {
+                    currentLevel++;
+                    q.add(node.getRightChildNode());
+                }
+                if (previousLevel == 0) {
+                    previousLevel = currentLevel;
+                    currentLevel = 0;
+                    st.push(loi);
+                    loi = new LinkedList<Integer>();
+                }
+            }
+            while (!st.isEmpty()) {
+                System.out.println(st.pop());
             }
         }
     }

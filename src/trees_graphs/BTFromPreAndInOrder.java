@@ -5,29 +5,28 @@ import Utility.TreeNode;
 
 public class BTFromPreAndInOrder {
 
-    private int elementsVisited = 0;
+    private static int elementsVisited = 0;
 
     public static void main(String[] args) {
-        BTFromPreAndInOrder obj = new BTFromPreAndInOrder();
-        TreeNode rootNode = obj.parseToBT("abdegcfh", "dbgeachf");
+        TreeNode rootNode = parseToBT("abdegcfh", "dbgeachf");
         Tree.displayTree(rootNode);
     }
 
-    private TreeNode parseToBT(String preOrder, String str) {
+    public static TreeNode parseToBT(String preOrder, String inOrder) {
         TreeNode root;
-        if (str.length() == 1) {
-            return new TreeNode(null, null, null, str);
+        if (inOrder.length() == 1) {
+            return new TreeNode(null, null, null, inOrder);
         } else {
             char ch = preOrder.charAt(elementsVisited);
             root = new TreeNode(null, null, null, ch);
-            int index = str.indexOf(ch);
-            String left = str.substring(0, index);
+            int index = inOrder.indexOf(ch);
+            String left = inOrder.substring(0, index);
             if (left.length() > 0) {
                 elementsVisited++;
                 root.setLeftChildNode(parseToBT(preOrder, left));
             }
 
-            String right = str.substring(index + 1);
+            String right = inOrder.substring(index + 1);
             if (right.length() > 0) {
                 elementsVisited++;
                 root.setRightChildNode(parseToBT(preOrder, right));
