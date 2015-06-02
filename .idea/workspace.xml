@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added code for&#10;&#10;(1) a binary Tree which is a little big and more complicated than other examples created&#10;(2) changed the way the Tree questions are running based on the question number">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees_graphs/IsSameBST.java" />
+    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added code for&#10;&#10;checking if two binary trees are same without constructing a binary tree out of it. (Recursively creating sub arrays and see if the left and right sub array representing the sub-tree are after this element in both the arrays)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees_graphs/LargestBSTInBT.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interview-practice.iws" />
@@ -43,30 +43,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TreeQuestions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trees_graphs/TreeQuestions.java">
+      <file leaf-file-name="LargestBSTInBT.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trees_graphs/LargestBSTInBT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-              <folding>
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IsSameBST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/trees_graphs/IsSameBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46835443">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.6540362">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#974#983#0" expanded="true" />
-                <element signature="e#1039#1048#0" expanded="true" />
-                <element signature="e#1104#1113#0" expanded="true" />
-                <element signature="e#1170#1179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/arrays/ArrayMisc.java" />
-        <option value="$PROJECT_DIR$/src/dp/AllPermutationOfArray.java" />
         <option value="$PROJECT_DIR$/src/arrays/MoveRobotToFollowSequence.java" />
         <option value="$PROJECT_DIR$/src/dp/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/dp/LongestCommonSubsequence.java" />
@@ -146,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/Utility/Tree.java" />
         <option value="$PROJECT_DIR$/src/trees_graphs/TreeQuestions.java" />
         <option value="$PROJECT_DIR$/src/trees_graphs/IsSameBST.java" />
+        <option value="$PROJECT_DIR$/src/trees_graphs/LargestBST.java" />
+        <option value="$PROJECT_DIR$/src/trees_graphs/LargestBSTInBT.java" />
       </list>
     </option>
   </component>
@@ -296,27 +279,7 @@
       <recent name="C:\Users\madhu_000\Documents\GitHub\InterviewPracticeQuestions\Interview-practice\src\trees_graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsSameBST">
-    <configuration default="false" name="NodesAtDistanceK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="trees_graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="trees_graphs.NodesAtDistanceK" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interview-practice" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LargestBSTInBT">
     <configuration default="false" name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -385,6 +348,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="trees_graphs.IsSameBST" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interview-practice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LargestBSTInBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="trees_graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="trees_graphs.LargestBSTInBT" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -671,19 +654,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.TechGig" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NodesAtDistanceK" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Palindrome" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IsomorphicTree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TreeQuestions" />
-      <item index="5" class="java.lang.String" itemvalue="Application.IsSameBST" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Palindrome" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IsomorphicTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TreeQuestions" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IsSameBST" />
+      <item index="5" class="java.lang.String" itemvalue="Application.LargestBSTInBT" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IsSameBST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TreeQuestions" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IsomorphicTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Palindrome" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NodesAtDistanceK" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LargestBSTInBT" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IsSameBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TreeQuestions" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IsomorphicTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -709,13 +692,7 @@
       <workItem from="1432256240940" duration="12711000" />
       <workItem from="1432525848043" duration="19880000" />
       <workItem from="1432748021692" duration="36582000" />
-      <workItem from="1433103404309" duration="6066000" />
-    </task>
-    <task id="LOCAL-00002" summary="Implemented Reversing a linked list using iterative method">
-      <created>1430113068146</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1430113068147</updated>
+      <workItem from="1433103404309" duration="10665000" />
     </task>
     <task id="LOCAL-00003" summary="add some comments to NQueenProblem and made some text changes">
       <created>1430145866409</created>
@@ -1005,11 +982,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433112623171</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added code for&#10;&#10;checking if two binary trees are same without constructing a binary tree out of it. (Recursively creating sub arrays and see if the left and right sub array representing the sub-tree are after this element in both the arrays)">
+      <created>1433129048735</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1433129048735</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147341000" />
+    <option name="totallyTimeSpent" value="151940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1267" height="727" extended-state="0" />
@@ -1033,7 +1016,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24734694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33385828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33385828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1056,7 +1039,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Added&#10;next String in lexicographical order&#10;tower of hanoi" />
     <MESSAGE value="Added&#10;modified name of classes&#10;" />
     <MESSAGE value="Added code for&#10;&#10;(1) Median of Sorted Array&#10;(2) Finding mid of Linked List in O(n) (One iteration) and O(1) space&#10;(3) Replace space with '%20' &#10;(4) Incrementing and decrement a String as a number by 1&#10;(5) Spiral Printing of Binary Tree&#10;(6) Print all possible Key strokes based on a given number&#10;(7) &#10;Finding largest Sub array with equal number of 1's and 0's (incomplete solution)" />
     <MESSAGE value="Added code for&#10;&#10;(1) Longest Arithmetic progression&#10;(2) Finding Square root of a number using Recursion&#10;(Changed the package for certain files)&#10;" />
@@ -1081,7 +1063,8 @@
     <MESSAGE value="added code for&#10;&#10;(1) Meta company's coding challenge&#10;(2) Finding next palindromic number&#10;(3) Nodes at Distance K&#10;(4) Insertion in a Interval BST." />
     <MESSAGE value="added code for&#10;&#10;check if two trees are isomorphic to each other" />
     <MESSAGE value="added code for&#10;&#10;(1) a binary Tree which is a little big and more complicated than other examples created&#10;(2) changed the way the Tree questions are running based on the question number" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code for&#10;&#10;(1) a binary Tree which is a little big and more complicated than other examples created&#10;(2) changed the way the Tree questions are running based on the question number" />
+    <MESSAGE value="added code for&#10;&#10;checking if two binary trees are same without constructing a binary tree out of it. (Recursively creating sub arrays and see if the left and right sub array representing the sub-tree are after this element in both the arrays)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for&#10;&#10;checking if two binary trees are same without constructing a binary tree out of it. (Recursively creating sub arrays and see if the left and right sub array representing the sub-tree are after this element in both the arrays)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1396,7 +1379,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="419" />
+      <option name="time" value="420" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1405,14 +1388,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dp/LongestPalindromicSubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46952224">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strings/MaxKStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.815486">
@@ -1800,9 +1775,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees_graphs/IsSameBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7034596">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#983#0" expanded="true" />
+            <element signature="e#1039#1048#0" expanded="true" />
+            <element signature="e#1104#1113#0" expanded="true" />
+            <element signature="e#1170#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees_graphs/TreeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6425041">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
             <element signature="e#397#398#0" expanded="true" />
@@ -1811,16 +1800,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees_graphs/IsSameBST.java">
+    <entry file="file://$PROJECT_DIR$/src/trees_graphs/LargestBSTInBT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46835443">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.6540362">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#974#983#0" expanded="true" />
-            <element signature="e#1039#1048#0" expanded="true" />
-            <element signature="e#1104#1113#0" expanded="true" />
-            <element signature="e#1170#1179#0" expanded="true" />
           </folding>
         </state>
       </provider>
