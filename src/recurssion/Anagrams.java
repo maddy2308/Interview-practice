@@ -22,13 +22,16 @@ public class Anagrams {
     }
 
     public static void main(String[] args) {
-        Anagrams obj = new Anagrams("madhur");
+        //Anagrams obj = new Anagrams("abc");
+        getAllSubSequences("abc", "");
+
     }
 
     private void getAnagrams(String str, String anagram) {
+        System.out.println(anagram);
         if (anagram.length() == LENGTH) {
-            System.out.println(anagram);
-            list.add(anagram);
+            //System.out.println(anagram);
+            //list.add(anagram);
         } else {
             for (int index = 0; index < str.length(); index++) {
                 String s = str.substring(0, index) + str.substring(index + 1);
@@ -36,4 +39,14 @@ public class Anagrams {
             }
         }
     }
+
+    private static void getAllSubSequences(String str, String subSequence) {
+        System.out.println(subSequence);
+        for (int i = 0; i < str.length(); i++) {
+            String s = str.substring(0, i) + str.substring(i + 1);
+            getAllSubSequences(s, subSequence + str.charAt(i));
+        }
+    }
+
+
 }

@@ -5,8 +5,8 @@ import java.util.*;
 public class RangeMerge {
 
     //private List<Time> timeList = Arrays.asList(new Time(1, 9), new Time(2, 4), new Time(6, 8), new Time(4, 7));
-    //private List<Time> timeList = Arrays.asList(new Time(1, 3), new Time(2, 4), new Time(6, 8), new Time(4, 7));
-    private List<Time> timeList = Arrays.asList(new Time(1, 3), new Time(7, 9), new Time(4, 6), new Time(10, 13));
+    private List<Time> timeList = Arrays.asList(new Time(1, 3), new Time(2, 4), new Time(6, 8), new Time(4, 7));
+    //private List<Time> timeList = Arrays.asList(new Time(1, 3), new Time(7, 9), new Time(4, 6), new Time(10, 13));
     private TimeComparator myComparator = new TimeComparator();
 
     public static void main(String[] args) {

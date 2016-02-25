@@ -4,7 +4,7 @@ public class RotatedStringPalindrome {
 
     public static void main(String[] args) {
         RotatedStringPalindrome obj = new RotatedStringPalindrome();
-        System.out.println(obj.isRotatedStringPalindrome("11001100"));
+        System.out.println(obj.isRotatedStringPalindrome("01100110"));
     }
 
     private boolean isPalindrome(String str){
@@ -16,8 +16,8 @@ public class RotatedStringPalindrome {
     }
 
     private boolean isRotatedStringPalindrome(String str){
-        StringBuilder sb = new StringBuilder();
         for (int i = 1; i< str.length(); i++){
+            StringBuilder sb = new StringBuilder();
             sb.append(str.substring(i)).append(str.substring(0, i));
             if (isPalindrome(sb.toString())) return true;
         }
