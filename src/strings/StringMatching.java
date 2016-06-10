@@ -9,7 +9,7 @@ public class StringMatching {
 
     public static void main(String[] args) {
         StringMatching strMatching = new StringMatching("AbccbcbababaDcababaD", "ABABAD");
-        System.out.println(strMatching.kmpAlgo());
+        System.out.println(strMatching.kmpAlgo() >= 1 ? "Match Found" : "Match Not Found");
     }
 
     public StringMatching(String text, String pattern) {
