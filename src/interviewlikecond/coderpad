@@ -1,0 +1,19 @@
+lor --> list<Replacememt>;
+Replacememt --> List<String>
+
+rep = lor.get(index);
+
+private List<String> list = new ArrayList();
+public void statements(List<List<String>> lor, List<String replacements, int lIndex, String str) {
+
+    if (lIndex == lor.size()) {
+        list.add(str);
+    } else {
+        for (int i = 0; i < lor.get(lIndex).size(); i++) {
+            str = str.replace(i, replacements.get(i));
+            statements(lor, lIndex++, str);
+        }
+    }
+}
+
+
