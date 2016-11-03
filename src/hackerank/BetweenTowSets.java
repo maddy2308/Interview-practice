@@ -1,5 +1,7 @@
 package hackerank;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class BetweenTowSets {
@@ -25,9 +27,10 @@ public class BetweenTowSets {
         System.out.println(lcm);
         int smallestNumber = Integer.MAX_VALUE;
         for (int number : b) {
-            number = number < smallestNumber ? number : smallestNumber;
+            smallestNumber = number < smallestNumber ? number : smallestNumber;
         }
-
+        List<Integer> list = obj.calculateCommonDivisors(b, lcm, smallestNumber);
+        System.out.println(list);
     }
 
     /*
@@ -55,6 +58,24 @@ public class BetweenTowSets {
             }
         }
         return lcm;
+    }
+
+    private List<Integer> calculateCommonDivisors(int[] b, int lcm, int smallestNumber) {
+        List<Integer> divisorLists = new ArrayList<Integer>();
+        int divisor = lcm;
+        for (int j = 1; divisor <= smallestNumber; ++j, divisor = lcm * j) {
+            boolean flag = false;
+            for (int aB : b) {
+                if (aB % divisor != 0) {
+                    divisor = smallestNumber + 1;
+                    flag = true;
+                }
+            }
+            if (!flag) {
+                divisorLists.add(divisor);
+            }
+        }
+        return divisorLists;
     }
 
     private int checkIfDivisible(int number, int divisor) {
