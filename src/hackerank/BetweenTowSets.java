@@ -63,12 +63,13 @@ public class BetweenTowSets {
     private List<Integer> calculateCommonDivisors(int[] b, int lcm, int smallestNumber) {
         List<Integer> divisorLists = new ArrayList<Integer>();
         int divisor = lcm;
-        for (int j = 1; divisor <= smallestNumber; ++j, divisor = lcm * j) {
-            boolean flag = false;
+        boolean flag = false;
+        for (int j = 1; divisor <= smallestNumber && !flag; ++j, divisor = lcm * j) {
             for (int aB : b) {
+                flag = false;
                 if (aB % divisor != 0) {
-                    divisor = smallestNumber + 1;
                     flag = true;
+                    break;
                 }
             }
             if (!flag) {

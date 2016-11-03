@@ -4,14 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="added new coding questions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/google_fb_yahoo/AlmostSorted.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/google_fb_yahoo/ZigZagString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerank/atlassian/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerank/heap/RunningMedian.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerank/queue_stack/BalancedParenthesis.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hackerank/MakingAnagrams.java" afterPath="$PROJECT_DIR$/src/hackerank/hash_table/MakingAnagrams.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hackerank/RansomNote.java" afterPath="$PROJECT_DIR$/src/hackerank/hash_table/RansomNote.java" />
+    <list default="true" id="0a290060-1b44-41d8-8ff5-aa34e484dab0" name="Default" comment="``">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hackerank/BetweenTowSets.java" afterPath="$PROJECT_DIR$/src/hackerank/BetweenTowSets.java" />
     </list>
@@ -66,11 +59,11 @@
       <file leaf-file-name="BetweenTowSets.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hackerank/BetweenTowSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1950#1959#0" expanded="true" />
+                <element signature="e#1949#1958#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -952,14 +945,7 @@
       <workItem from="1477366979419" duration="2099000" />
       <workItem from="1477454762797" duration="490000" />
       <workItem from="1477534809163" duration="8513000" />
-      <workItem from="1477721772006" duration="3484000" />
-    </task>
-    <task id="LOCAL-00009" summary="Added code to check if the rotates string is palindrome or not">
-      <created>1430253251748</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1430253251748</updated>
+      <workItem from="1477721772006" duration="3789000" />
     </task>
     <task id="LOCAL-00010" summary="Added code for all possible combination of a coin with given Sum.&#10;Added code for Closest Value in BST">
       <created>1430326598671</created>
@@ -1297,11 +1283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476738860713</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added new coding questions">
+      <created>1478150515403</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1478150515404</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233703000" />
+    <option name="totallyTimeSpent" value="234008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -1803,13 +1796,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerank/atlassian/Solution.java</url>
-          <line>7</line>
+          <line>8</line>
           <properties />
           <option name="timeStamp" value="493" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hackerank/atlassian/Solution.java</url>
-          <line>12</line>
+          <line>14</line>
           <properties />
           <option name="timeStamp" value="494" />
         </line-breakpoint>
@@ -2238,11 +2231,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hackerank/BetweenTowSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1950#1959#0" expanded="true" />
+            <element signature="e#1949#1958#0" expanded="true" />
           </folding>
         </state>
       </provider>
