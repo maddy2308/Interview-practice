@@ -2,7 +2,7 @@ package hackerank;
 
 import java.util.Scanner;
 
-public class BetweenTowSets {
+public class Between2Sets {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class BetweenTowSets {
             b[b_i] = in.nextInt();
         }
 
-        BetweenTowSets obj = new BetweenTowSets();
+        Between2Sets obj = new Between2Sets();
         int lcm = 1;
         for (int anA : a) {
             lcm = obj.calculateLcm(lcm, anA);

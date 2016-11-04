@@ -4,7 +4,7 @@ package trees_graphs;
 import Utility.Tree;
 import Utility.TreeNode;
 
-public class BSTFromPreOrder {
+class BSTFromPreOrder {
 
     private int index = 0;
     private TreeNode root;
