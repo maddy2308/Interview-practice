@@ -1,4 +1,4 @@
-package hackerank;
+package hackerank.hash_table;
 
 import java.util.HashMap;
 import java.util.Map;
